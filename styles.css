@@ -33,6 +33,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   flex-wrap: nowrap;
   padding: 20px;
   margin: 10px 0;
@@ -81,4 +82,17 @@ label {
 .palindrome-definition{
   color: #fff;
   text-align: center;
+}
+
+.result-div {
+  overflow-y: auto;
+  word-wrap: break-word;
+  min-height: 10px;
+  color: #000;
+}
+.success{
+  font-size: 1.4rem;
+  margin-top: 10px;
+  text-align: center;
+  color: #000;
 }
